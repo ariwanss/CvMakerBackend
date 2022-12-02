@@ -14,8 +14,8 @@ const cvItemSchema = new  mongoose.Schema({
     type: String,
     required: true
   },
-  yearStart: Number,
-  yearEnd: Number,
+  timeStart: String,
+  timeEnd: String,
   link: String,
   description: [String]
 });
