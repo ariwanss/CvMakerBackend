@@ -8,7 +8,8 @@ const cvItemSchema = new  mongoose.Schema({
   },
   section: {
     type: String,
-    required: true
+    required: true,
+    ref: 'CvSection'
   },
   title: {
     type: String,
